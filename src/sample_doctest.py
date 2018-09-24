@@ -41,4 +41,5 @@ def get_last_half(data):
     >>> get_last_half([0, 2, 4, 6, 8])
     [4, 6, 8]
     """
-    return list(data[2:])
+    return list(data[len(data)//2:])
+    
